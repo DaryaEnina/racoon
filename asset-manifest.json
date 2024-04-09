@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "racoon/static/css/main.3c4ace49.css",
-    "main.js": "racoon/static/js/main.245cf852.js",
-    "static/css/388.bf79ee2b.chunk.css": "racoon/static/css/388.bf79ee2b.chunk.css",
-    "static/js/388.e9c1aebd.chunk.js": "racoon/static/js/388.e9c1aebd.chunk.js",
-    "static/media/vecteezy_raccoon-chronicles-exploring-nature-s-bandit-ai-generative_27510248.png": "racoon/static/media/vecteezy_raccoon-chronicles-exploring-nature-s-bandit-ai-generative_27510248.422419ad78dd964d5d4f.png",
-    "static/media/vecteezy_raccoon-transparent-background-ai-generative_32480339.png": "racoon/static/media/vecteezy_raccoon-transparent-background-ai-generative_32480339.3787d2d4da869603692a.png",
-    "static/media/cheshirskiy-cat-roman.ttf": "racoon/static/media/cheshirskiy-cat-roman.73c1e9cdf37cd945e8a9.ttf",
-    "static/media/antiqua.ttf": "racoon/static/media/antiqua.d3243e0aa4f91e34310f.ttf",
-    "index.html": "/index.html",
-    "main.3c4ace49.css.map": "racoon/static/css/main.3c4ace49.css.map",
-    "main.245cf852.js.map": "racoon/static/js/main.245cf852.js.map",
-    "388.bf79ee2b.chunk.css.map": "racoon/static/css/388.bf79ee2b.chunk.css.map",
-    "388.e9c1aebd.chunk.js.map": "racoon/static/js/388.e9c1aebd.chunk.js.map"
+    "main.css": "/racoon/static/css/main.ced5de44.css",
+    "main.js": "/racoon/static/js/main.1da958d3.js",
+    "static/css/388.ec3fecff.chunk.css": "/racoon/static/css/388.ec3fecff.chunk.css",
+    "static/js/388.e9c1aebd.chunk.js": "/racoon/static/js/388.e9c1aebd.chunk.js",
+    "static/media/vecteezy_raccoon-chronicles-exploring-nature-s-bandit-ai-generative_27510248.png": "/racoon/static/media/vecteezy_raccoon-chronicles-exploring-nature-s-bandit-ai-generative_27510248.422419ad78dd964d5d4f.png",
+    "static/media/vecteezy_raccoon-transparent-background-ai-generative_32480339.png": "/racoon/static/media/vecteezy_raccoon-transparent-background-ai-generative_32480339.3787d2d4da869603692a.png",
+    "static/media/cheshirskiy-cat-roman.ttf": "/racoon/static/media/cheshirskiy-cat-roman.73c1e9cdf37cd945e8a9.ttf",
+    "static/media/antiqua.ttf": "/racoon/static/media/antiqua.d3243e0aa4f91e34310f.ttf",
+    "index.html": "/racoon/index.html",
+    "main.ced5de44.css.map": "/racoon/static/css/main.ced5de44.css.map",
+    "main.1da958d3.js.map": "/racoon/static/js/main.1da958d3.js.map",
+    "388.ec3fecff.chunk.css.map": "/racoon/static/css/388.ec3fecff.chunk.css.map",
+    "388.e9c1aebd.chunk.js.map": "/racoon/static/js/388.e9c1aebd.chunk.js.map"
   },
   "entrypoints": [
-    "racoon/static/css/main.3c4ace49.css",
-    "racoon/js/main.245cf852.js"
+    "static/css/main.ced5de44.css",
+    "static/js/main.1da958d3.js"
   ]
 }
