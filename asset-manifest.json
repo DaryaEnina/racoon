@@ -15,7 +15,7 @@
     "388.e9c1aebd.chunk.js.map": "/static/js/388.e9c1aebd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c4ace49.css",
-    "static/js/main.245cf852.js"
+    "racoon/static/css/main.3c4ace49.css",
+    "racoon/js/main.245cf852.js"
   ]
 }
