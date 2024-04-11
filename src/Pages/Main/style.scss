@@ -1,6 +1,6 @@
 .main__wrapper {
   width: 80%;
-  height: calc(100vh - 170px);
+  height: 100vh;
   background-color: inherit;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9,8 +9,12 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   @media screen and (max-width: 1200px) {
     width: 90%;
+    height: calc(100vh - 50px);
   }
   .main__title {
     display: -webkit-box;
@@ -23,20 +27,12 @@
     h2 {
       color: #ededed;
       font-family: "DancingScript";
-      font-size: 150px;
+      font-weight: 700;
+      font-size: 5em;
+      font-style: normal;
+      text-align: center;
       @media screen and (max-width: 1200px) {
-        font-size: 50px;
-      }
-      &:first-child {
-        text-align: start;
-        line-height: 1.1;
-      }
-      &:last-child {
-        text-align: end;
-        line-height: 0.1;
-        @media screen and (max-width: 1200px) {
-          line-height: normal;
-        }
+        font-size: 3em;
       }
     }
   }
@@ -51,6 +47,7 @@
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
+    padding: 5%;
     @media screen and (max-width: 1200px) {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -59,13 +56,13 @@
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
+      height: calc(100vh - 70px);
     }
     .main__content_left {
       width: 50%;
-      padding-top: 10%;
       @media screen and (max-width: 1200px) {
         width: 100%;
-        padding-top: 0;
+        padding-top: 20px;
       }
       p {
         color: #979797;
@@ -79,17 +76,18 @@
       }
       .main__content_left-line {
         width: 100%;
-        border: 2px solid #ededed;
+        border: 2px solid #737373;
         border-radius: 12px;
         margin-bottom: 40px;
         @media screen and (max-width: 1200px) {
-          border: 1px solid #ededed;
+          border: 1px solid #737373;
           margin-bottom: 30px;
         }
       }
       .main__content_left-button {
         width: 250px;
         height: 60px;
+        border: none;
         border-radius: 22px;
         background-color: #ededed;
         font-family: "TextFont";
@@ -110,14 +108,12 @@
     .main__content_right {
       width: 50%;
       height: 100%;
-
-      background-image: url("../../../public/png/vecteezy_raccoon-chronicles-exploring-nature-s-bandit-ai-generative_27510248.png");
-      background-position: center;
+      background-image: url("../../assets/png/racoon-main-min-min.png");
       background-repeat: no-repeat;
-      background-size: 70%;
+      background-position: center;
+      background-size: contain;
       @media screen and (max-width: 1200px) {
         width: 100%;
-        height: 300px;
       }
     }
   }

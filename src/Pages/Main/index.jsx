@@ -4,8 +4,7 @@ const Main = () => {
   return (
     <main className="main__wrapper">
       <section className="main__title">
-        <h2>Купи енота,</h2>
-        <h2>Свинота!</h2>
+        <h2>Купи енота, Свинота!</h2>
       </section>
       <section className="main__content">
         <div className="main__content_left">
@@ -21,9 +20,9 @@ const Main = () => {
             солнцем и звездами!
           </p>
           <div className="main__content_left-line"></div>
-          <button className="main__content_left-button">
+          {/* <button className="main__content_left-button">
             Добро пожаловать!
-          </button>
+          </button> */}
         </div>
         <div className="main__content_right"></div>
       </section>

@@ -10,15 +10,10 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Функция, которая будет вызвана после завершения воспроизведения видео
     const handleVideoEnd = () => {
-      setIsLoading(false); // Убираем загрузочный экран
+      setIsLoading(false);
     };
-
-    return () => {
-      // Очистка эффекта, если компонент размонтируется
-      // В данном случае нет необходимости, так как видео само удаляется, но можно добавить, если нужно
-    };
+    return () => {};
   }, []);
 
   return (
@@ -31,7 +26,7 @@ function App() {
           <LazyMain />
         )}
       </Suspense>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

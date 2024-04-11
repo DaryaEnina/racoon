@@ -22,7 +22,7 @@ const Loading = ({ onVideoEnd }) => {
   };
 
   const handleVideoEnd = () => {
-    onVideoEnd(); // Вызываем колбэк, чтобы уведомить App.js о завершении воспроизведения видео
+    onVideoEnd();
   };
 
   return (
@@ -46,20 +46,3 @@ const Loading = ({ onVideoEnd }) => {
 };
 
 export default Loading;
-
-// import React from "react";
-// import ReactPlayer from "react-player";
-// import "./style.scss";
-
-// const Loading = () => {
-//   return (
-//     <div className="loading_wrapper">
-//       <h2>Loading...</h2>
-//       <video autoPlay controls>
-//         <source src="video/racoon.mp4" type="video/mp4" />
-//       </video>
-//     </div>
-//   );
-// };
-
-// export default Loading;
